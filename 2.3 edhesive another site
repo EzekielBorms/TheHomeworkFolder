@@ -1,0 +1,13 @@
+
+
+num = float(input("Enter numerator : "))
+
+den = float(input("Enter denominator : "))
+
+quotient = str(num//den)
+
+remainder = str(num%den)
+
+print("Quotient is " + quotient + " and remainder is " + remainder + ".")
+
+

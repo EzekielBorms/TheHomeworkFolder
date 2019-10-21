@@ -1,0 +1,5 @@
+num = int(input("Enter numerator : "))
+
+div = int(input("Enter denominator : "))
+
+print("Quotient is " + str(num//div) + " and remainder is " + str(num%div) + ".")
