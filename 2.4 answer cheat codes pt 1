@@ -1,0 +1,10 @@
+'''
+import math
+v = float(input("Input a number to be squarerooted :"))
+sv = math.sqrt(math.fabs(v))
+print (sv)
+'''
+import math 
+v = float(input("Input a number to be squarerooted: "))
+sv = math.sqrt(math.fabs(v))
+print (sv)
