@@ -1,0 +1,30 @@
+'''
+hours = int(input("Enter the hours: "))
+minutes = int(input("Enter the minutes: "))
+
+totalminutes = (60*hours) + minutes
+totalminutes = totalminutes + 15
+
+newhour = int(totalminutes / 60)
+newminute = int(totalminutes % 60)
+
+if(newhour > 12):
+    newhour = newhour - 12;
+
+print("Hours: "+str(newhour))
+print("Minutes: "+str(newminute))
+'''
+h = int(input("Enter teh hours: "))
+m = int(input("Enter teh minutes: "))
+
+tm = (60*h) + m
+tm = tm + 15
+
+nh = int(tm / 60)
+nm = int(tm % 60)
+
+if(nh > 12):
+	nh = nh -12;
+	
+print("Hours: " + str(nh))
+print("Minutes: " + str(nm))
