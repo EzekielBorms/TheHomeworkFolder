@@ -1,3 +1,7 @@
+'''
+attempt to make an algorithm
+'''
+
 import random
 
 n = int(input("Enter a number: "))
