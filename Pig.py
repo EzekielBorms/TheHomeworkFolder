@@ -1,3 +1,6 @@
+'''
+attempt to make a pig game, not complete
+'''
 import random
 
 player_points = 0
